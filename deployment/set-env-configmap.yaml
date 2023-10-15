@@ -7,7 +7,7 @@ data:
   POSTGRES_PASSWORD: yeua4nhieu
   POSTGRES_HOST: doanhnh.c5vfymrd2afu.us-east-1.rds.amazonaws.com
   POSTGRES_DB: doanhnh
-  AWS_BUCKET: bucket-proj3
+  AWS_BUCKET: udacity-project-3-dev
   AWS_REGION: us-east-1
   AWS_PROFILE: default
   JWT_SECRET: testing
