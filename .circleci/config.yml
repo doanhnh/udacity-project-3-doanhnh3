@@ -28,7 +28,7 @@ jobs:
             docker tag udagram-api-user doanhnh/udagram-api-user:v1
             
             docker build -t udagram-frontend ./udagram-frontend
-            docker tag udagram-frontend doanhnh/udagram-frontend:v3
+            docker tag udagram-frontend doanhnh/udagram-frontend:v1
 
             docker build -t udagram-reverseproxy ./udagram-reverseproxy
             docker tag udagram-reverseproxy doanhnh/udagram-reverseproxy:v1
@@ -43,7 +43,7 @@ jobs:
 
             docker push doanhnh/udagram-api-feed:v1
             docker push doanhnh/udagram-api-user:v1
-            docker push doanhnh/udagram-frontend:v3
+            docker push doanhnh/udagram-frontend:v1
             docker push doanhnh/udagram-reverseproxy:v1
 
 workflows:
