@@ -1,4 +1,5 @@
 ### Build
+FROM --platform=linux/amd64 node:16
 FROM beevelop/ionic:latest AS ionic
 ## Create app directory
 WORKDIR /usr/src/app
