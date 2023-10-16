@@ -3,11 +3,11 @@ kind: ConfigMap
 metadata:
   name: env-config
 data:
-  POSTGRES_USERNAME: doanhnh1
-  POSTGRES_PASSWORD: yeua4nhieu
-  POSTGRES_HOST: doanhnh1.c5vfymrd2afu.us-east-1.rds.amazonaws.com
-  POSTGRES_DB: doanhnh1
-  AWS_BUCKET: udacity-project-3-dev
+  POSTGRES_USERNAME: udacity
+  POSTGRES_PASSWORD: Abcd^1234
+  POSTGRES_HOST: aws-dev-udacity-prj3.c5vfymrd2afu.us-east-1.rds.amazonaws.com
+  POSTGRES_DB: udacityprj3
+  AWS_BUCKET: aws-dev-udacity-prj3
   AWS_REGION: us-east-1
   AWS_PROFILE: default
   JWT_SECRET: testing
